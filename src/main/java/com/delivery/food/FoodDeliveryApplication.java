@@ -12,7 +12,7 @@ public class FoodDeliveryApplication {
 /*
 Логин: admin@delivery.com
 Пароль: password>>>>
-Роль: ADMIN
+Роль: admin
 
 Логин: anna.ivanova@mail.ru
 Пароль: password

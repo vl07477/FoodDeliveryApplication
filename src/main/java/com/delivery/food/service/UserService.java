@@ -24,7 +24,7 @@ public class UserService {
         return new UserResponse(user.getId(), user.getUsername(), user.getEmail(), user.getRole().name());
     }
 
-    // ✅ НОВЫЙ МЕТОД!
+    //
     public List<UserResponse> getAllUsers() {
         return userRepository.findAll().stream()
                 .map(user -> new UserResponse(
